@@ -166,7 +166,6 @@ class Ball{
         }
         if((this.x > canvas.width-20 && this.x <canvas.width-10) && (this.y>player2.y && this.y<player2.y+120)){
             this.speedx = -this.speedx-this.acceleration;
-            this.acceleration+=1;
         }
         if(this.x<0){
             player2Score++;
